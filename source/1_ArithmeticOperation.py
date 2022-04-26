@@ -27,4 +27,8 @@ Hi
 Hi
 """
 
+# print 함수 end 매개변수는 print를 한 후에 다음에 붙이는 문자열이다. 기본은 개행으로 되어있다.
+print("fddf", end=" ")
+print("Okay")
+
 print("=" * 50)
