@@ -21,6 +21,8 @@ while damage < 10:
 
 
 # while 제어
+
+# break
 breakCnt = 0
 while breakCnt < 3:
     breakCnt += 1
@@ -29,6 +31,7 @@ while breakCnt < 3:
 
     print("break 안탔어요~")
 
+# continue
 continueCnt = 0
 while continueCnt < 3:
     continueCnt += 1
@@ -36,6 +39,5 @@ while continueCnt < 3:
         continue
     
     print("continue 안탔어요~")
-
 
 print("=" * 50)
